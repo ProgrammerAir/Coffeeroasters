@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
 
 /* 
@@ -454,8 +461,12 @@ nav ul li a:active {
 */
 /* Commitment Section Start */
 .commitment-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 125px;
     padding: 168px 165px 256px;
 }
@@ -486,8 +497,12 @@ nav ul li a:active {
 
 /* Quality Section Start */
 .quality-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 125px;
     width: 1280px;
     margin: 0 auto;
@@ -525,8 +540,12 @@ nav ul li a:active {
 }
 
 .headquarter-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     gap: 95px;
 }
 
@@ -601,9 +620,15 @@ nav ul li a:active {
 }
 
 .table-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: start;
-    justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding: 0 165px 168px;
 }
 
@@ -613,6 +638,8 @@ nav ul li a:active {
 }
 
 .data-table p {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 28.5px;
     margin-top: 24px;
@@ -654,12 +681,19 @@ nav ul li a:active {
 }
 
 .question-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     gap: 88px;
 }
 
 .question-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -668,13 +702,21 @@ nav ul li a:active {
     height: 14px;
     border-top: 4px solid #0e8784;
     border-left: 4px solid #0e8784;
-    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
 }
 
 .request-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-bottom: 56px;
 }
 
@@ -687,18 +729,21 @@ nav ul li a:active {
     color: #83888f;
 }
 
-.request-wrapper,
-.request-cards {
-}
-
 .request-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     gap: 88px;
     float: right;
 }
 
 .request-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 23px;
 }
@@ -777,9 +822,15 @@ nav ul li a:active {
 }
 
 .button {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 /* 
     Plan Section
