@@ -12,6 +12,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
 
 /* 
@@ -246,7 +253,7 @@ nav ul li a:active {
 
 /* Question Section Start */
 .question-section {
-    padding: 100px 80px 84px;
+    padding: 100px 0 84px;
 }
 
 .question-wrappers {
@@ -484,6 +491,10 @@ nav ul li a:active {
     color: var(--color-text-black-active);
 }
 
+.quality-info h2 {
+    color: #fff;
+}
+
 .commitment-info p,
 .quality-info p {
     margin-top: 32px;
@@ -580,7 +591,7 @@ nav ul li a:active {
     Plan Section
 */
 .plan {
-    padding: 177px 80px 159px;
+    padding: 177px 0 159px;
 }
 
 .plan-section__bg {
